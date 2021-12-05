@@ -1,0 +1,12 @@
+# generic aliases
+alias ll='ls -lh'
+alias l='ll'
+alias ..='cd ..'
+alias vip='vi ~/.bashrc'
+alias runp='. ~/.bashrc'
+
+# Ansible aliasses
+alias ap='ansible-playbook'
+alias apc='ap --syntax-check'
+alias ag='ansible-galaxy'
+alias agi='ag init'
